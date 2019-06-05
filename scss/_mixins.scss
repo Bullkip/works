@@ -1,5 +1,5 @@
-@mixin tr($property, $time: .5s) {
-	transition: $property $time linear;
+@mixin tr($property, $time: .5s , $function: ease-in-out) {
+	transition: $property $time $function;
 }
 
 @mixin myPos($top: 50%, $left: 50%, $tx: -50%, $ty: -50%) {
