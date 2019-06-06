@@ -6,6 +6,7 @@ $(document).ready(function () {
         slidesToShow: 4,
         slidesToScroll: 1,
         initialSlide:0,
+        variableWidth:true,
         responsive: [{
                 breakpoint: 1600,
                 settings: {
